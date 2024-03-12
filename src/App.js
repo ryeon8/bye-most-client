@@ -20,7 +20,7 @@ export const InputDataContext = React.createContext()
 
 function App() {
   const [agreed, setAgreed] = useState(false)
-  // id: 계정, myId: mattermost에서 부여하는 고유값.
+  // id: mattermost 로그인 계정(email, username), myId: mattermost에서 id에 부여하는 고유값.
   // id, pwd, serverInfo, myId, token, delayTime, partnersAuthList 등 전 데이터 관리.
   const [inputData, setInputData] = useState({})
   // { success: , tooManyFailed, }
