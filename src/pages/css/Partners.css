@@ -1,0 +1,16 @@
+.ui.icon.button {
+  margin-top: 24px;
+}
+
+.pair-input-box {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.field.small {
+  margin-right: 10px !important;
+  margin-bottom: 0px !important;
+  width: 37%;
+}

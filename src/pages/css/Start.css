@@ -1,0 +1,19 @@
+.start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header-title {
+  /* 시맨틱 UI의 제목 스타일을 적용하거나 직접 스타일을 정의할 수 있습니다. */
+  color: teal;
+}
+
+.sub-title {
+  margin-top: 10px;
+  /* 일반 div에 적용할 스타일을 정의합니다. */
+  font-size: 18px;
+  color: gray;
+}

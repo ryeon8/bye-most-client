@@ -1,0 +1,42 @@
+.app-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.container {
+  margin-top: '2em';
+}
+
+.contents {
+  min-height: 320px;
+  margin-top: '10px';
+  margin-bottom: '20px';
+}
+
+.title > i {
+  display: inline !important;
+}
+
+.title > i:before {
+  position: absolute;
+  display: inline;
+  margin-left: 10px;
+}
+
+.right-btn-box {
+  text-align: right;
+}
+
+.mT10 {
+  margin-top: 10px;
+}
+
+.mT20 {
+  margin-top: 20px;
+}
+
+.taC {
+  text-align: center;
+}
